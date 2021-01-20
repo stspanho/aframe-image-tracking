@@ -1,0 +1,45 @@
+
+/* CSS files add styling rules to your content */
+
+body {
+	font-family: helvetica, arial, sans-serif;
+	margin: 2em;
+}
+
+h1 {
+	font-style: italic;
+	color: #373fff;
+}
+
+div#text {
+	position: absolute;
+	left: 6px;
+	top: 6px;
+	padding: 6px;
+	max-width: 450px;
+	background-color: rgba(255, 255, 255, 0.7);
+	z-index: 10;
+}
+
+/* By default, hide the DOM Overlay element. */
+#overlay {
+	display: none;
+}
+/* Show the DOM Overlay element while active (:xr-overlay pseudoclass) */
+#overlay:xr-overlay {
+	display: initial;
+}
+#greeting {
+	background-color: rgba(1, 1, 1, 0.25);
+	margin: 10px;
+}
+#exit-ar {
+	position: absolute;
+	right: 40px;
+	bottom: 40px;
+	background: rgba(127, 127, 127, 0.25);
+	color: white;
+	border: 1px solid rgba(255, 255, 255, 0.25);
+	padding: 6px 8px;
+	font-weight: bold;
+}
